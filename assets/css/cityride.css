@@ -542,7 +542,7 @@ h6 {
   color: var(--cityride-black, #141414);
   line-height: 1.09;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 1399px) {
   .sec-title__title {
@@ -755,7 +755,7 @@ h6 {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .emargency-call__number {
   font-weight: 700;
@@ -780,7 +780,7 @@ h6 {
   font-weight: 600;
   letter-spacing: var(--cityride-letter-space, -0.03em);
   line-height: 1.875;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 11px;
 }
 @media (max-width: 575px) {
@@ -813,7 +813,7 @@ h6 {
   font-weight: 600;
   letter-spacing: var(--cityride-letter-space, -0.03em);
   line-height: 1.875;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 575px) {
   .progress-box__number {
@@ -1053,7 +1053,7 @@ h6 {
   height: 40px;
   background-color: var(--cityride-white2, #F4F1EA);
   color: var(--cityride-text, #838383);
-  text-transform: capitalize;
+  text-transform: none;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -1481,7 +1481,7 @@ h6 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 2px;
 }
 .driver-card__name a {
@@ -1496,7 +1496,7 @@ h6 {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   line-height: 1;
 }
@@ -1640,7 +1640,7 @@ h6 {
   font-size: 20px;
   color: var(--cityride-black, #141414);
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.6;
   font-weight: 500;
 }
@@ -1813,7 +1813,7 @@ h6 {
 }
 .blog-card--three .blog-card__text {
   margin-bottom: 21px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .blog-card--three .blog-card__link {
   padding: 13.5px 20.5px;
@@ -2218,7 +2218,7 @@ li:hover .topbar__info__icon {
   padding: 0 25px 0 0;
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black2, #000000) !important;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 15px;
   line-height: 35px;
   font-weight: 500;
@@ -2248,7 +2248,7 @@ li:hover .topbar__info__icon {
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black2, #000000);
   background-color: var(--cityride-white2, #F4F1EA);
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -2279,7 +2279,7 @@ li:hover .topbar__info__icon {
   gap: 4px;
   font-size: 15px;
   color: var(--cityride-black2, #000000);
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.2;
 }
 .topbar__login__text {
@@ -2720,7 +2720,7 @@ li:hover .topbar__info__icon {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.428;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: var(--cityride-letter-space, -0.03em);
 }
 .main-header--two .main-header__call__number {
@@ -2806,7 +2806,7 @@ li:hover .topbar__info__icon {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.428;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: var(--cityride-letter-space, -0.03em);
 }
 .main-header--three .main-header__call__number {
@@ -3734,7 +3734,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--cityride-white, #c79f42);
   font-weight: 600;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 1199px) {
   .page-header__title {
@@ -3800,7 +3800,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 16px;
   color: var(--cityride-white, #c79f42);
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: normal;
   display: flex;
   align-items: center;
@@ -3964,14 +3964,14 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--cityride-white, #c79f42);
   font-weight: 600;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 20px;
 }
 .sidebar-one__about__text {
   margin-bottom: 0;
   font-weight: 500;
   color: var(--cityride-gray, #DFDFDF);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .sidebar-one__info__list {
   margin: 0;
@@ -4005,7 +4005,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .sidebar-one__info__list li address {
   color: inherit;
   line-height: 1.75;
-  text-transform: capitalize;
+  text-transform: none;
   margin: 0;
 }
 .sidebar-one__info__list li a {
@@ -4084,7 +4084,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 16px;
   margin-bottom: 30px;
 }
@@ -4207,7 +4207,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.555;
 }
 .sidebar__posts__title:hover {
@@ -4252,7 +4252,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   font-size: 16px;
   color: var(--cityride-black, #141414);
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
   line-height: 1;
   display: flex;
@@ -4303,7 +4303,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 14px;
   color: var(--cityride-black, #141414);
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 400;
   padding: 8px 12.5px 10px;
 }
@@ -4359,7 +4359,7 @@ li:hover .sidebar__comments__icon {
   line-height: 1.562;
   font-weight: 400;
   color: var(--cityride-text, #838383);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .sidebar__comments__title:hover {
   color: var(--cityride-base, #c79f42);
@@ -4424,7 +4424,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 500ms ease;
   z-index: 2;
 }
@@ -4536,7 +4536,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 8px;
 }
 @media (max-width: 1199px) {
@@ -4732,7 +4732,7 @@ li:hover .sidebar__comments__icon {
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 1199px) {
   .taxi-sidebar__contact__title {
@@ -4854,7 +4854,7 @@ li:hover .sidebar__comments__icon {
   padding-right: 20px;
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-text, #838383) !important;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   line-height: 55px;
   font-weight: 500;
@@ -4887,7 +4887,7 @@ li:hover .sidebar__comments__icon {
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black, #141414);
   background-color: var(--cityride-white2, #F4F1EA);
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -4933,7 +4933,7 @@ li:hover .sidebar__comments__icon {
   background-color: var(--cityride-white2, #F4F1EA);
   border: 1px solid transparent;
   transition: all 400ms ease;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .form-one input[type=text]::placeholder,
 .form-one input[type=email]::placeholder,
@@ -4944,7 +4944,7 @@ li:hover .sidebar__comments__icon {
   font-size: 14px;
   line-height: 14px;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   color: #585858;
 }
 .form-one input[type=text]:focus,
@@ -5044,7 +5044,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   font-size: 16px;
   line-height: 138%;
-  text-transform: capitalize;
+  text-transform: none;
   color: RGBA(var(--cityride-black-rgb, 20, 20, 20), 0.8);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
@@ -5057,7 +5057,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   font-size: 16px;
   line-height: 138%;
-  text-transform: capitalize;
+  text-transform: none;
   color: RGBA(var(--cityride-black-rgb, 20, 20, 20), 0.8);
   margin-bottom: 0;
   padding-bottom: 0;
@@ -5099,7 +5099,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   font-weight: 600;
   color: var(--cityride-white, #c79f42);
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.5;
 }
 .footer-widget__title::before, .footer-widget__title::after {
@@ -5167,7 +5167,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-white, #c79f42);
   display: flex;
   align-items: center;
@@ -5188,7 +5188,7 @@ li:hover .sidebar__comments__icon {
   line-height: 150%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-white, #c79f42);
   opacity: 0.8;
 }
@@ -5343,7 +5343,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   color: var(--cityride-text, #838383);
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.875;
 }
 .footer-widget__links li a {
@@ -5532,7 +5532,7 @@ li:hover .sidebar__comments__icon {
   line-height: 125%;
   margin-bottom: 8px;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .contact-top__item__title a {
@@ -5711,7 +5711,7 @@ li:hover .sidebar__comments__icon {
 }
 .contact-one__sidebar__info__address {
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.87;
 }
 .contact-one__sidebar__info__address, .contact-one__sidebar__info__list li a {
@@ -6430,7 +6430,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: 1.125;
   letter-spacing: -0.03em;
-  text-transform: capitalize;
+  text-transform: none;
   font-family: var(--cityride-heading-font, "Lexend", serif);
   opacity: 0;
   font-weight: 700;
@@ -6980,7 +6980,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: 1.125;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   opacity: 0;
   font-weight: 700;
   font-size: 80px;
@@ -7308,7 +7308,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: 1.125;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   opacity: 0;
   transform: translateX(200px);
   transition: transform 1500ms ease, opacity 1500ms ease;
@@ -7673,7 +7673,7 @@ li:hover .sidebar__comments__icon {
 .about-one__text {
   margin-bottom: 30px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-one__shape {
   max-width: 100%;
@@ -7809,7 +7809,7 @@ li:hover .sidebar__comments__icon {
   margin-bottom: 21px;
   line-height: 1.75;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-two__inner {
   margin-bottom: 31px;
@@ -7861,7 +7861,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
   line-height: 1.75;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-two__inner .cityride-info__item + .cityride-info__item {
   margin-top: 23px;
@@ -8097,7 +8097,7 @@ li:hover .sidebar__comments__icon {
   margin-bottom: 31px;
   line-height: 1.75;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-three__inner {
   margin-bottom: 45px;
@@ -8174,7 +8174,7 @@ li:hover .sidebar__comments__icon {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-three__founder__designation {
   margin: 0;
@@ -8182,7 +8182,7 @@ li:hover .sidebar__comments__icon {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-three__founder__sign {
   max-width: 100%;
@@ -8333,7 +8333,7 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   line-height: 160%;
   background-color: var(--cityride-base, #c79f42);
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   transform: rotate(-180deg);
   position: absolute;
@@ -8358,7 +8358,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   line-height: 175%;
   letter-spacing: -0.03em;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-text, #838383);
   padding-bottom: 25px;
   border-bottom: 1px solid var(--cityride-border-color, #DFDFDF);
@@ -8433,7 +8433,7 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   line-height: 25px;
   color: var(--cityride-black, #141414);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .about-four__element {
   position: absolute;
@@ -8558,7 +8558,7 @@ li:hover .sidebar__comments__icon {
   line-height: 186%;
   margin-bottom: -5px;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-text, #838383);
 }
 .about-four--one {
@@ -8672,7 +8672,7 @@ li:hover .sidebar__comments__icon {
   line-height: 118%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .service-card__title a {
@@ -8716,7 +8716,7 @@ li:hover .sidebar__comments__icon {
   line-height: 175%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-white, #c79f42);
 }
 .service-card__link i {
@@ -8820,7 +8820,7 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   background-color: var(--cityride-white, #c79f42);
   clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
   transition: all 500ms ease;
@@ -8950,7 +8950,7 @@ li:hover .sidebar__comments__icon {
   line-height: 118%;
   margin-bottom: 10px;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .service-card-two__title a {
@@ -8981,7 +8981,7 @@ li:hover .sidebar__comments__icon {
   line-height: 175%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: #585858;
 }
 .service-card-two__link i {
@@ -9066,7 +9066,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   font-size: 22px;
   line-height: 118%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   margin-bottom: 0;
   padding-bottom: 0;
@@ -9432,12 +9432,12 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 18px;
 }
 .service-details__text {
   margin: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .service-details__inner-two {
   margin-bottom: 31px;
@@ -9446,7 +9446,7 @@ li:hover .sidebar__comments__icon {
   margin-bottom: 14px;
 }
 .service-details__text-two {
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 25px;
 }
 .service-details__info {
@@ -9509,7 +9509,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-black, #141414);
   font-weight: 600;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -9562,7 +9562,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
 }
 .service-details .faq-accordion .accordion-content p {
-  text-transform: capitalize;
+  text-transform: none;
 }
 .service-details .faq-accordion .active.accordion {
   border: 1px solid var(--cityride-border-color, #DFDFDF);
@@ -9635,7 +9635,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-white2, #F4F1EA);
 }
 .taxi-booking__form__heading::before {
@@ -9693,7 +9693,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
   text-shadow: 0 0 0.1px currentColor;
 }
 .taxi-booking__form input {
@@ -9735,7 +9735,7 @@ li:hover .sidebar__comments__icon {
   padding-right: 17px;
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-text, #838383) !important;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   line-height: 45px;
   font-weight: 500;
@@ -9768,7 +9768,7 @@ li:hover .sidebar__comments__icon {
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black, #141414);
   background-color: var(--cityride-white2, #F4F1EA);
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -10319,12 +10319,12 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: normal;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-card__company {
   margin-bottom: 20px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-card__list {
   margin-bottom: 30px;
@@ -10345,7 +10345,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   font-weight: 500;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-card .cityride-btn {
   padding: 11.5px 20.5px;
@@ -10399,7 +10399,7 @@ li:hover .sidebar__comments__icon {
 .taxi-rates-one__main-tab-box .tab-buttons .tab-btn {
   cursor: pointer;
   padding: 8px 16.5px;
-  text-transform: capitalize;
+  text-transform: none;
   background-color: var(--cityride-white, #c79f42);
 }
 .taxi-rates-one__main-tab-box .tab-buttons .tab-btn .cityride-btn__icon {
@@ -10743,13 +10743,13 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   line-height: normal;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-details__company {
   margin: 0;
   line-height: 1.12;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-details__text-box {
   margin-top: 25px;
@@ -10767,7 +10767,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   line-height: normal;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-details__features__item {
   display: flex;
@@ -10813,11 +10813,11 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   line-height: 1.8;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .taxi-details__features__item__text {
   margin: 0;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: var(--cityride-letter-space, -0.03em);
 }
 
@@ -10853,7 +10853,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
   font-size: 24px;
   line-height: 67%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   padding: 30px 33px;
   position: relative;
@@ -10934,7 +10934,7 @@ li:hover .sidebar__comments__icon {
   line-height: 192%;
   margin-bottom: 8px;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   font-family: var(--cityride-special-font, "Plus Jakarta Sans", serif);
 }
@@ -10968,7 +10968,7 @@ li:hover .sidebar__comments__icon {
   line-height: 186%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .why-choose-one__list__item i {
@@ -11263,7 +11263,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .why-choose-two__info {
   margin-top: 55px;
@@ -11674,7 +11674,7 @@ li:hover .sidebar__comments__icon {
   margin-bottom: 2px;
   padding-bottom: 0;
   color: var(--cityride-white, #c79f42);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .why-choose-three__feature__text {
   margin-bottom: -5px;
@@ -11748,7 +11748,7 @@ li:hover .sidebar__comments__icon {
   line-height: 160%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .why-choose-four__list__item.active-btn, .why-choose-four__list__item:hover {
@@ -11802,7 +11802,7 @@ li:hover .sidebar__comments__icon {
   font-size: 14px;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   line-height: 186%;
   display: flex;
@@ -12363,7 +12363,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
   font-size: 55px;
   line-height: 1.254;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 1199px) {
   .funfact-one__item__number {
@@ -12385,7 +12385,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 /*--------------------------------------------------------------
@@ -12426,7 +12426,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
 }
 .testimonial-card__designation {
@@ -12436,7 +12436,7 @@ li:hover .sidebar__comments__icon {
   line-height: 138%;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .testimonial-card__text {
   font-style: normal;
@@ -12626,7 +12626,7 @@ li:hover .sidebar__comments__icon {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .testimonial-card-two .cityride-ratings {
   margin-right: 86px;
@@ -12699,7 +12699,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   color: var(--cityride-black, #141414);
   line-height: 1.75;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 425px) {
   .testimonial-card-three__quote {
@@ -13162,7 +13162,7 @@ li:hover .sidebar__comments__icon {
   margin: 0;
   font-weight: 500;
   line-height: 1.875;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .blog-details__inner {
   margin-bottom: 52px;
@@ -13174,7 +13174,7 @@ li:hover .sidebar__comments__icon {
 .blog-details__inner__text {
   font-weight: 500;
   line-height: 1.875;
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: 31px;
   margin-bottom: 19px;
 }
@@ -13189,7 +13189,7 @@ li:hover .sidebar__comments__icon {
 .blog-details__inner__list li {
   line-height: 1.875;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .blog-details__meta {
   display: flex;
@@ -13229,7 +13229,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   color: var(--cityride-text, #838383);
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   background-color: var(--cityride-white2, #F4F1EA);
 }
 .blog-details__categories__btn:hover {
@@ -13252,7 +13252,7 @@ li:hover .sidebar__comments__icon {
   font-size: 14px;
   color: var(--cityride-black, #141414);
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
 }
 .blog-details__tags__box a:hover {
@@ -13336,7 +13336,7 @@ li:hover .sidebar__comments__icon {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.1;
   margin-bottom: 14px;
 }
@@ -13348,7 +13348,7 @@ li:hover .sidebar__comments__icon {
 .comments-one__card__date {
   font-weight: 400;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 .comments-one__card__text {
@@ -13365,7 +13365,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   color: var(--cityride-black, #141414);
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   background-color: var(--cityride-base, #c79f42);
   transition: all 400ms ease;
 }
@@ -13414,7 +13414,7 @@ li:hover .sidebar__comments__icon {
   font-size: 18px;
   font-weight: 700;
   line-height: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: -2px;
   margin-bottom: 21px;
 }
@@ -13574,7 +13574,7 @@ li:hover .sidebar__comments__icon {
   gap: 10px;
   line-height: 1;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-text, #838383);
   font-weight: 500;
   transition: all 500ms ease;
@@ -13636,7 +13636,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   color: var(--cityride-text, #838383);
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 767px) {
   .product__showing-text {
@@ -13678,7 +13678,7 @@ li:hover .sidebar__comments__icon {
   padding-right: 38px;
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black, #141414) !important;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 16px;
   line-height: 52px;
   font-weight: 500;
@@ -13716,7 +13716,7 @@ li:hover .sidebar__comments__icon {
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black, #141414);
   background-color: var(--cityride-white2, #F4F1EA);
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -13934,13 +13934,13 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .product-details__price {
   margin: 0;
   font-size: 24px;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   color: var(--cityride-base, #c79f42);
 }
@@ -13956,7 +13956,7 @@ li:hover .sidebar__comments__icon {
 .product-details__review a {
   font-size: 16px;
   color: var(--cityride-text, #838383);
-  text-transform: capitalize;
+  text-transform: none;
   line-height: normal;
   font-weight: 400;
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
@@ -13985,7 +13985,7 @@ li:hover .sidebar__comments__icon {
 .product-details__quantity__title {
   font-size: 16px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.75;
   margin-bottom: 0;
 }
@@ -14098,7 +14098,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   color: var(--cityride-text, #838383);
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 .product-details__socials .social-links a {
@@ -14122,7 +14122,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 15px;
 }
 .product-details__description__text {
@@ -14158,7 +14158,7 @@ li:hover .sidebar__comments__icon {
 .product-details__comments-form__text {
   font-size: 16px;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 20px;
 }
 .product-details__comments-form__ratings {
@@ -14175,7 +14175,7 @@ li:hover .sidebar__comments__icon {
 .product-details__comments-form__ratings__text {
   font-size: 16px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1;
   margin-bottom: 0;
 }
@@ -14229,7 +14229,7 @@ li:hover .sidebar__comments__icon {
   line-height: 1;
   font-weight: 700;
   padding: 0 60px 25.5px;
-  text-transform: capitalize;
+  text-transform: none;
   border: none;
   background-color: transparent;
   border: 0 !important;
@@ -14246,7 +14246,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   font-weight: 700;
   color: var(--cityride-base, #c79f42);
-  text-transform: capitalize;
+  text-transform: none;
   line-height: normal;
   vertical-align: middle;
   border-top: none;
@@ -14310,7 +14310,7 @@ li:hover .sidebar__comments__icon {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.222;
 }
 .cart-page__table__meta__title:hover {
@@ -14328,7 +14328,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: none;
   padding-top: 2px;
   margin-bottom: 16px;
 }
@@ -14431,7 +14431,7 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   font-family: var(--cityride-heading-font, "Lexend", serif);
   color: var(--cityride-black, #141414);
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 600;
   line-height: normal;
 }
@@ -14447,7 +14447,7 @@ li:hover .sidebar__comments__icon {
   font-size: 30px;
   font-weight: 700;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 .cart-page__cart-total__amount--1 {
@@ -14477,7 +14477,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   color: var(--cityride-text, #838383);
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 10px;
 }
 .cart-page__cart-total__address__text {
@@ -14485,7 +14485,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-gray2, #717880);
   font-weight: 400;
   line-height: 1.625;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 .cart-page__button {
@@ -14523,7 +14523,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 20px;
 }
 .checkout-page__billing-address {
@@ -14538,7 +14538,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-black, #141414);
   font-weight: 400;
   line-height: normal;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 15px;
 }
 .checkout-page__control input[type=text],
@@ -14588,7 +14588,7 @@ li:hover .sidebar__comments__icon {
   padding-right: 20px;
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-text, #838383) !important;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   line-height: 61px;
   font-weight: 400;
@@ -14622,7 +14622,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   color: var(--cityride-black, #141414);
   background-color: var(--cityride-white, #c79f42);
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -14650,7 +14650,7 @@ li:hover .sidebar__comments__icon {
 }
 .checkout-page__different-address__text {
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: none;
   line-height: 1.625;
   margin-bottom: 0;
 }
@@ -14678,7 +14678,7 @@ li:hover .sidebar__comments__icon {
   font-family: var(--cityride-heading-font, "Lexend", serif);
   font-size: 20px;
   color: var(--cityride-black, #141414);
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
   line-height: normal;
   margin: 0;
@@ -14698,7 +14698,7 @@ li:hover .sidebar__comments__icon {
   font-family: var(--cityride-font, "Manrope", sans-serif);
   color: var(--cityride-black, #141414);
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .checkout-page__order-table tbody tr td.pro__title--total, .checkout-page__order-table tbody tr td.pro__price--total {
   font-family: var(--cityride-heading-font, "Lexend", serif);
@@ -14745,7 +14745,7 @@ li:hover .sidebar__comments__icon {
   display: flex;
   align-items: center;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
   line-height: normal;
   margin-bottom: 0;
@@ -14878,7 +14878,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   line-height: 1.142;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
@@ -14951,7 +14951,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   line-height: 1.333;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .login-page__form__input-box {
   position: relative;
@@ -15053,7 +15053,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   cursor: pointer;
   transition: all 400ms ease;
 }
@@ -15109,7 +15109,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 400ms ease;
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
@@ -15139,7 +15139,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   line-height: 1.333;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 19px;
 }
 .login-page__signin__title a {
@@ -15160,7 +15160,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 500;
   line-height: 1.357;
   letter-spacing: -0.023m;
-  text-transform: capitalize;
+  text-transform: none;
 }
 .login-page__signin__buttons {
   margin-top: 27px;
@@ -15383,7 +15383,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 15px;
 }
 .driver-skills-one__text {
@@ -15476,7 +15476,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.25;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 500ms ease;
 }
 .faq-accordion .accordion-title h4::after {
@@ -15643,7 +15643,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   line-height: 1.09;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 1399px) {
   .faq-page-search__title {
@@ -15812,12 +15812,12 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: normal;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .pricing-card__company {
   margin-bottom: 20px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .pricing-card__list {
   margin-bottom: 30px;
@@ -15838,7 +15838,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   font-weight: 500;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .pricing-card .cityride-btn {
   padding: 11.5px 20.5px;
@@ -15876,7 +15876,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-text, #838383);
   font-weight: 500;
   line-height: 1;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 500ms ease;
 }
 .pricing-page__main-tab-box .tab-buttons .tab-btn:hover {
@@ -15973,7 +15973,7 @@ li:hover .sidebar__comments__icon {
 .download-app-one__text {
   margin-bottom: 41px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .download-app-one__list {
   list-style: none;
@@ -15988,7 +15988,7 @@ li:hover .sidebar__comments__icon {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-white, #c79f42);
   line-height: 186%;
 }
@@ -16051,7 +16051,7 @@ li:hover .sidebar__comments__icon {
   font-size: 12px;
   color: var(--cityride-text, #838383);
   line-height: 1.333;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 500ms ease;
 }
 .download-app-one__btn:hover .download-app-one__btn__title, .download-app-one__btn:hover .download-app-one__btn__text {
@@ -16215,12 +16215,12 @@ li:hover .sidebar__comments__icon {
   font-size: 20px;
   line-height: 1.25;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .download-app-two__item__text {
   margin: 0;
   line-height: 1.625;
-  text-transform: capitalize;
+  text-transform: none;
   letter-spacing: var(--cityride-letter-space, -0.03em);
 }
 .download-app-two__image {
@@ -16325,7 +16325,7 @@ li:hover .sidebar__comments__icon {
 .download-app-three__top__text {
   margin-bottom: 41px;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .download-app-three__button {
   display: flex;
@@ -16381,7 +16381,7 @@ li:hover .sidebar__comments__icon {
   font-size: 12px;
   color: var(--cityride-text, #838383);
   line-height: 1.333;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all 500ms ease;
 }
 .download-app-three__btn:hover .download-app-three__btn__title, .download-app-three__btn:hover .download-app-three__btn__text {
@@ -16655,7 +16655,7 @@ li:hover .sidebar__comments__icon {
   font-size: 24px;
   line-height: 1.33;
   letter-spacing: -0.03em;
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 767px) {
   .cityride-info__item__title {
@@ -16799,7 +16799,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: 1.5;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 412px) {
   .emergency-service-one__title {
@@ -16813,7 +16813,7 @@ li:hover .sidebar__comments__icon {
   color: var(--cityride-white, #c79f42);
   line-height: 1;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 412px) {
   .emergency-service-one__number {
@@ -16945,7 +16945,7 @@ li:hover .sidebar__comments__icon {
   font-weight: 700;
   font-size: 22px;
   line-height: 136%;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--cityride-black, #141414);
   padding-bottom: 0;
   margin-bottom: 5px;
@@ -17043,7 +17043,7 @@ li:hover .sidebar__comments__icon {
   font-size: 55px;
   line-height: 1.09;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 @media (max-width: 575px) {
   .error-404__title {
@@ -17056,7 +17056,7 @@ li:hover .sidebar__comments__icon {
   font-size: 16px;
   line-height: 1;
   letter-spacing: var(--cityride-letter-space, -0.03em);
-  text-transform: capitalize;
+  text-transform: none;
 }
 .error-404__btn {
   padding: 14px 31.25px;
