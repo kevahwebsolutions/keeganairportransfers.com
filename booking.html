@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking || </title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/footer-logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/footer-logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/footer-logo.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <meta name="description" content="Cityride is a very modern and versatile online taxi services HTML Template. It is specially designed for cab services, car rental, taxi booking, online taxi services, transport, taxi driver, taxi rent service, car repair shop, auto mechanic service and all other online car & taxi booking businesses.">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css">
+    <link rel="stylesheet" href="assets/vendors/cityride-icons/style.css">
+    <style>.navbar-nav li a {
+        white-space: nowrap;
+        font-size: 0.9rem; /* Reduce if needed */
+      }</style>
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/cityride.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="custom-cursor">
+
+  <div class="custom-cursor__cursor"></div>
+  <div class="custom-cursor__cursor-two"></div>
+
+  <div class="preloader">
+      <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+  </div>
+  <!-- /.preloader -->
+  <div class="page-wrapper">
+      <div class="topbar topbar--two">
+          <div class="container-fluid">
+              <div class="topbar__inner">
+                  <div class="topbar__inner__bg" style="background-image: url(assets/images/shapes/nav-shape-bg-2-1.png);"></div>
+                  <ul class="list-unstyled topbar__info">
+                      <li>
+                          <span class="topbar__info__icon"><i class="icon-paper-plane"></i></span>
+                          <a href="mailto:book@keegansairportransfer.com">book@keegansairportransfer.com</a>
+                      </li>
+                      <li>
+                          <span class="topbar__info__icon topbar__info__icon--location"><i class="icon-maps-and-flags"></i></span>
+                          <a href="https://www.google.com/maps/@23.506657,90.3443647,7z?entry=ttu">Friendship Avenue, Marcoola 4564, QLD Australia</a>
+                      </li>
+                  </ul>
+                  
+                  <div class="topbar__right">
+                      <div class="topbar__login">
+                          <a href="booking.html" class="book-ride-btn">BOOK A RIDE</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+      <header class="main-header main-header--three sticky-header sticky-header--normal">
+          <div class="container-fluid">
+              <div class="main-header__inner">
+                  <div class="main-header__logo logo-retina">
+                      <a href="index.html">
+                          <img src="assets/images/logo-dark.gif" alt="cityride HTML" width="220" height="55">
+                      </a>
+                  </div><!-- /.main-header__logo -->
+                  <div class="main-header__right">
+                      <nav class="main-header__nav main-menu">
+                          <ul class="main-menu__list">
+
+                              <li>
+                                  <a href="index.html">Home</a></li>
+                              <li>
+                                  <a href="about.html">About Us</a>
+                              </li>
+                              <li >
+                                  <a href="services.html">Services</a>  </li>
+                                  <li >
+                                      <a href="fleet.html">Our Fleet</a>  </li>
+                                      <li >
+                                          <a href="pricing.html">Pricing</a>  </li>
+                                          <li >
+                                              <li> <a href="booking.html">Booking</a>  </li>    
+                              <li>
+                                  <a href="contact.html">Contact</a>
+                              </li>
+                          </ul>
+                      </nav><!-- /.main-header__nav -->
+                      <div class="mobile-nav__btn mobile-nav__toggler">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </div><!-- /.mobile-nav__toggler -->
+                     
+                      <div class="main-header__call">
+                          <span class="main-header__call__icon">
+                              <i class="icon-telephone-call"></i>
+                          </span><!-- /.main-header__call__icon -->
+                          <div class="main-header__call__content">
+                              <p class="main-header__call__title">call us</p><!-- /.main-header__call__title -->
+                              <a href="tel:+61466433476 " class="main-header__call__number">+61&nbsp;466&nbsp;433&nbsp;476 </a>
+                              <!-- /.main-header__call__number -->
+                          </div><!-- /.main-header__call__content -->
+                      </div><!-- /.main-header__call -->
+                  </div><!-- /.main-header__right -->
+              </div><!-- /.main-header__inner -->
+          </div><!-- /.container-fluid -->
+      </header>
+
+      <section class="page-header">
+        <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/booking.jpg);"></div>
+        <!-- /.page-header__bg -->
+        <div class="container">
+            <div class="page-header__content">
+                <h2 class="page-header__title"></h2>
+                <ul class="cityride-breadcrumb list-unstyled">
+                    <li><span class="cityride-breadcrumb__icon"><i class="icon-home"></i></span><a href="index.html">Home</a></li>
+                    <li><span>Booking</span></li>
+                </ul><!-- /.thm-breadcrumb list-unstyled -->
+            </div><!-- /.page-header__content -->
+        </div><!-- /.container -->
+        <div class="page-header__element-one">
+            <img src="assets/images/shapes/pagination-left.png" alt>
+        </div><!-- /.page-header__element-one -->
+        <div class="page-header__element-two">
+            <img src="assets/images/shapes/pagination-right.png" alt>
+        </div><!-- /.page-header__element-two -->
+    </section><!-- /.page-header -->
+
+  <main class="form-container">
+    <header class="form-headers">
+      <h1>Premium Ride Booking</h1>
+      <p>Book your luxury transportation experience</p>
+    </header>
+
+    <form id="bookingForm" class="booking-forms" novalidate>
+      <!-- Personal Information Section -->
+      <section class="form-sections" data-section="1">
+        <h2>Personal Information</h2>
+        <div class="form-group">
+          <label for="fullName">Full Name <span class="required">*</span></label>
+          <input type="text" id="fullName" name="fullName" required aria-required="true">
+          <div class="error-message" id="fullName-error"></div>
+        </div>
+
+        <div class="form-groups">
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true">
+          <div class="error-message" id="email-error"></div>
+        </div>
+
+        <div class="form-groups">
+          <label for="phone">Contact Number <span class="required">*</span></label>
+          <input type="tel" id="phone" name="phone" required aria-required="true">
+          <div class="error-message" id="phone-error"></div>
+        </div>
+
+        <div class="form-groups">
+          <label for="flightNumber">Flight Number</label>
+          <input type="text" id="flightNumber" name="flightNumber">
+          <div class="error-message" id="flightNumber-error"></div>
+        </div>
+      </section>
+
+      <!-- Booking Details Section -->
+      <section class="form-sections" data-section="2">
+        <h2>Booking Details</h2>
+        <div class="form-group">
+          <label for="serviceType">Service Type <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="serviceType" name="serviceType" required aria-required="true">
+              <option value="" disabled selected>Select service type</option>
+              <option value="doorToDoor">Door-to-Door Transfer</option>
+              <option value="airport">Airport Transfer</option>
+              <option value="hourly">Hourly Package</option>
+              <option value="business">Business Transfer</option>
+              <option value="wedding">Wedding Car Hire</option>
+              <option value="special">Special Occasion Car Hire</option>
+            </select>
+          </div>
+          <div class="error-message" id="serviceType-error"></div>
+        </div>
+      </section>
+
+      <!-- Location Details Section -->
+      <section class="form-sections" data-section="3">
+        <h2>Location Details</h2>
+        <div class="form-group">
+          <label for="pickupLocation">Pickup Location <span class="required">*</span></label>
+          <input type="text" id="pickupLocation" name="pickupLocation" required aria-required="true">
+          <div class="error-message" id="pickupLocation-error"></div>
+        </div>
+
+        <div class="form-groups">
+          <label for="dropoffLocation">Dropoff Location <span class="required">*</span></label>
+          <input type="text" id="dropoffLocation" name="dropoffLocation" required aria-required="true">
+          <div class="error-message" id="dropoffLocation-error"></div>
+        </div>
+
+        <div class="form-rows">
+          <div class="form-group half">
+            <label for="pickupDate">Pickup Date <span class="required">*</span></label>
+            <input type="date" id="pickupDate" name="pickupDate" required aria-required="true">
+            <div class="error-message" id="pickupDate-error"></div>
+          </div>
+
+          <div class="form-group half">
+            <label for="pickupTime">Pickup Time <span class="required">*</span></label>
+            <input type="time" id="pickupTime" name="pickupTime" required aria-required="true">
+            <div class="error-message" id="pickupTime-error"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vehicle Selection Section -->
+      <section class="form-sections" data-section="4">
+        <h2>Vehicle Selection</h2>
+        <div class="form-group">
+          <label for="vehicleType">Vehicle Type <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="vehicleType" name="vehicleType" required aria-required="true">
+              <option value="" disabled selected>Select vehicle type</option>
+              <option value="tesla">Tesla Model 3 (Sedan)</option>
+              <option value="kia">KIA Carnival (People Mover)</option>
+              <option value="toyota">Toyota Kluger (SUV)</option>
+              <option value="bmw">BMW I5 (4 Passenger Sedan)</option>
+              <option value="audi">Audi Q7 (TSFI; 7 Passenger)</option>
+            </select>
+          </div>
+          <div class="error-message" id="vehicleType-error"></div>
+        </div>
+      </section>
+
+      <!-- Passenger Information Section -->
+      <section class="form-sections" data-section="5">
+        <h2>Passenger Information</h2>
+        <div class="form-row">
+          <div class="form-group half">
+            <label for="adultPassengers">Adult Passengers <span class="required">*</span></label>
+            <div class="custom-select">
+              <select id="adultPassengers" name="adultPassengers" required aria-required="true">
+                <option value="" disabled selected>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+            <div class="error-message" id="adultPassengers-error"></div>
+          </div>
+
+          <div class="form-group half">
+            <label for="childPassengers">Child Passengers</label>
+            <div class="custom-select">
+              <select id="childPassengers" name="childPassengers">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Child Seat Options Section -->
+      <section class="form-sections child-seat-section" data-section="6">
+        <h2>Child Seat Options</h2>
+        
+        <div class="form-row">
+          <div class="form-group third">
+            <label for="frontFacingSeats">Front-Facing Child Seats</label>
+            <div class="custom-select">
+              <select id="frontFacingSeats" name="frontFacingSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group third">
+            <label for="rearFacingSeats">Rear-Facing Child Seats</label>
+            <div class="custom-select">
+              <select id="rearFacingSeats" name="rearFacingSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group third">
+            <label for="boosterSeats">Booster Seats</label>
+            <div class="custom-select">
+              <select id="boosterSeats" name="boosterSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional Requirements Section -->
+      <section class="form-sections" data-section="7">
+        <h2>Additional Requirements</h2>
+        <div class="form-group">
+          <label for="specialInstructions">Special Instructions</label>
+          <textarea id="specialInstructions" name="specialInstructions" rows="4" placeholder="Please include any luggage details or special requirements"></textarea>
+        </div>
+      </section>
+
+      <!-- Payment Options Section -->
+      <section class="form-sections" data-section="8">
+        <h2>Payment Options</h2>
+        <div class="form-group">
+          <label for="paymentOption">Payment Option <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="paymentOption" name="paymentOption" required aria-required="true">
+              <option value="" disabled selected>Select payment method</option>
+              <option value="creditCard">Credit Card (Visa/Mastercard)</option>
+              <option value="bankTransfer">Bank Transfer/Pay ID</option>
+            </select>
+          </div>
+          <div class="error-message" id="paymentOption-error"></div>
+        </div>
+      </section>
+
+      <!-- Terms and Conditions -->
+      <section class="form-sections" data-section="9">
+        <div class="form-group checkbox-group">
+          <div class="custom-checkbox">
+            <input type="checkbox" id="termsAgree" name="termsAgree" required aria-required="true">
+            <label for="termsAgree">I have read and agree to the <a href="terms.html" class="terms-link">Terms and Conditions</a> <span class="required">*</span></label>
+          </div>
+          <div class="error-message" id="termsAgree-error"></div>
+        </div>
+      </section>
+
+      <!-- Submit Button -->
+      <section class="form-sections submit-section" data-section="10">
+        <button type="submit" id="submitButton" class="submit-button" disabled>
+          <span class="button-text">Get a Quote</span>
+          <span class="loader"></span>
+        </button>
+      </section>
+    </form>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+      <div class="success-content">
+        <h2>Thank You!</h2>
+        <p>Your booking request has been submitted successfully. We will contact you shortly with your quote.</p>
+        <button id="newBookingButton" class="submit-button">New Booking</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-footer__inner">
+        <div class="main-footer__top">
+            <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-1-1.png);"></div>
+            <div class="container">
+                <div class="row gutter-y-40">
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                        <div class="footer-widget footer-widget--about">
+                            <a href="index.html" class="footer-widget__logo logo-retina">
+                                <img src="assets/images/footer-logo.png" width="203" height="85" alt="Keegan's Airport Transfers">
+                            </a>
+                            <p class="footer-widget__about-text">Premium airport and private transfer services across Sunshine Coast and Brisbane areas.</p>
+                            <div class="footer-widget__social">
+                                <a href="https://facebook.com/keegansairporttransfers" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
+                                <a href="https://instagram.com/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="footer-widget footer-widget--links">
+                            <h2 class="footer-widget__title">Quick Links</h2>
+                            <ul class="list-unstyled footer-widget__links">
+                                <li><a href="about.html"><i class="icon-arrow-right1"></i>About Us</a></li>
+                                <li><a href="services.html"><i class="icon-arrow-right1"></i>Our Services</a></li>
+                                <li><a href="faq.html"><i class="icon-arrow-right1"></i>FAQ's</a></li><li><a href="terms.html"><i class="icon-arrow-right1"></i>Terms & Conditions</a></li>
+                                <li><a href="contact.html"><i class="icon-arrow-right1"></i>Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <!-- Empty column kept for layout consistency -->
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="footer-widget footer-widget--contact">
+                            <h2 class="footer-widget__title">Contact Us</h2>
+                            <ul class="list-unstyled footer-widget__info">
+                                <li>
+                                    <span class="footer-widget__info__icon">
+                                        <i class="icon-email"></i>
+                                    </span>
+                                    <a href="mailto:book@keegansairportransfer.com">book@keegansairportransfer.com</a>
+                                </li>
+                                <li>
+                                    <span class="footer-widget__info__icon">
+                                        <i class="icon-telephone-call"></i>
+                                    </span>
+                                    <a href="tel:+61466433476">+61&nbsp;466&nbsp;433&nbsp;476</a>
+                                </li>
+                            </ul>
+                            <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
+                                <div class="form-group__form">
+                                    <input type="email" name="EMAIL" placeholder="Your email address">
+                                    <button type="submit" class="cityride-btn cityride-btn--secondary"><span class="icon-arrow-left1"></span></button>
+                                </div>
+                                <div class="form-group__check">
+                                    <input type="checkbox" name="checkbox" id="check">
+                                    <label for="check">I agree to the <a href="privacy.html">Privacy Policy.</a></label>
+                                </div>
+                            </form>
+                            <div class="mc-form__response"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer__top__element">
+                <img src="assets/images/shapes/footer-shape.png" alt>
+            </div>
+        </div>
+        <div class="main-footer__bottom">
+            <div class="container">
+                <div class="main-footer__bottom__inner">
+                    <p class="main-footer__copyright" style="color: black;">
+                        © Copyright 2025 by 
+                        <a href="https://kevahwebsolutions.github.io/kelvin-njoroge.com/index.html" target="_blank" 
+                           style="color: turquoise; text-decoration: none;" 
+                           onmouseover="this.style.color='black'" 
+                           onmouseout="this.style.color='turquoise'">
+                          Kevah Web Solutions
+                        </a>
+                      </p>
+                      
+                    <ul class="list-unstyled main-footer__bottom__list">
+                        <li><a href="faq.html">Terms & Condition</a></li>
+                        <li><a href="faq.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-x"></i></span>
+        <div class="logo-box logo-retina">
+            <a href="index.html" aria-label="logo image"><img src="assets/images/footer-logo.png" width="175" alt="Keegan's Airport Transfers"></a>
+        </div>
+        <div class="mobile-nav__container"></div>
+        <ul class="mobile-nav__contact list-unstyled">
+            <li>
+                <span class="mobile-nav__contact__icon">
+                    <i class="fa fa-envelope"></i>
+                </span>
+                <a href="mailto:book@keegansairportransfer.com">book@keegansairportransfer.com</a>
+            </li>
+            <li>
+                <span class="mobile-nav__contact__icon">
+                    <i class="fa fa-phone-alt"></i>
+                </span>
+                <a href="tel:+61466433476">+61&nbsp;466&nbsp;433&nbsp;476</a>
+            </li>
+        </ul>
+        <div class="mobile-nav__social">
+            <a href="https://facebook.com/keegansairporttransfers" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
+            <a href="https://instagram.com/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+        </div>
+    </div>
+</div>
+
+<div class="search-popup">
+    <div class="search-popup__overlay search-toggler"></div>
+    <div class="search-popup__content">
+        <form role="search" method="get" class="search-popup__form" action="#">
+            <input type="text" id="search" placeholder="Search Here...">
+            <button type="submit" aria-label="search submit" class="cityride-btn"><i class="icon-search"></i></button>
+        </form>
+    </div>
+</div>
+
+<aside class="sidebar-one">
+    <div class="sidebar-one__overlay sidebar-btn__toggler"></div>
+    <div class="sidebar-one__content">
+        <span class="sidebar-one__close sidebar-btn__toggler"><i class="icon-x"></i></span>
+        <div class="sidebar-one__logo sidebar-one__item logo-retina"> 
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="104" height="55" alt="Keegan's Airport Transfers"></a>
+        </div>
+        <div class="sidebar-one__about sidebar-one__item">
+            <p class="sidebar-one__about__text">Premium airport and private transfer services across Sunshine Coast and Brisbane areas.</p>
+        </div>
+        <div class="sidebar-one__info sidebar-one__item">
+            <h4 class="sidebar-one__title">Contact</h4>
+            <ul class="sidebar-one__info__list">
+                <li>
+                    <span class="sidebar-one__info__icon sidebar-one__info__icon--location">
+                        <i class="icon-maps-and-flags"></i>
+                    </span>
+                    <address>674 Nicklin Way, Wurtulla QLD, Australia</address>
+                </li>
+                <li>
+                    <span class="sidebar-one__info__icon">
+                        <i class="icon-paper-plane"></i>
+                    </span>
+                    <a href="mailto:book@keegansairportransfer.com">book@keegansairportransfer.com</a>
+                </li>
+                <li>
+                    <span class="sidebar-one__info__icon">
+                        <i class="icon-telephone-call"></i>
+                    </span>
+                    <a href="tel:+61466433476">+61&nbsp;466&nbsp;433&nbsp;476</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-one__social social-links sidebar-one__item">
+            <a href="https://facebook.com/keegansairporttransfers" target="_blank"> <i class="fab fa-facebook-f" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
+            <a href="https://instagram.com/" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+        </div>
+        <div class="sidebar-one__newsletter sidebar-one__item">
+            <label class="sidebar-one__title" for="sidebar-email">Newsletter</label>
+            <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
+                <input type="email" name="EMAIL" id="sidebar-email" class="sidebar-one__newsletter__input" placeholder="Email Address">
+                <button type="submit" class="sidebar-one__newsletter__btn"><span class="icon-email" aria-hidden="true"></span></button>
+            </form>
+            <div class="mc-form__response"></div>
+        </div>
+    </div>
+</aside>
+
+<div id="scroll-top" class="scroll-top">
+    <span id="scroll-top-value" class="scroll-top-value"></span>
+</div>
+
+
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+<script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="assets/vendors/wow/wow.js"></script>
+<script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
+<script src="assets/vendors/countdown/countdown.min.js"></script>
+<script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+<script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+<!-- template js -->
+<script src="assets/js/cityride.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

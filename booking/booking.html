@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Transportation Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <header class="form-header">
+      <h1>Premium Transport Booking</h1>
+      <p>Book your luxury transportation experience</p>
+    </header>
+
+    <form id="bookingForm" class="booking-form" novalidate>
+      <!-- Personal Information Section -->
+      <section class="form-section" data-section="1">
+        <h2>Personal Information</h2>
+        <div class="form-group">
+          <label for="fullName">Full Name <span class="required">*</span></label>
+          <input type="text" id="fullName" name="fullName" required aria-required="true">
+          <div class="error-message" id="fullName-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true">
+          <div class="error-message" id="email-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Contact Number <span class="required">*</span></label>
+          <input type="tel" id="phone" name="phone" required aria-required="true">
+          <div class="error-message" id="phone-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="flightNumber">Flight Number</label>
+          <input type="text" id="flightNumber" name="flightNumber">
+          <div class="error-message" id="flightNumber-error"></div>
+        </div>
+      </section>
+
+      <!-- Booking Details Section -->
+      <section class="form-section" data-section="2">
+        <h2>Booking Details</h2>
+        <div class="form-group">
+          <label for="serviceType">Service Type <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="serviceType" name="serviceType" required aria-required="true">
+              <option value="" disabled selected>Select service type</option>
+              <option value="doorToDoor">Door-to-Door Transfer</option>
+              <option value="airport">Airport Transfer</option>
+              <option value="hourly">Hourly Package</option>
+              <option value="business">Business Transfer</option>
+              <option value="wedding">Wedding Car Hire</option>
+              <option value="special">Special Occasion Car Hire</option>
+            </select>
+          </div>
+          <div class="error-message" id="serviceType-error"></div>
+        </div>
+      </section>
+
+      <!-- Location Details Section -->
+      <section class="form-section" data-section="3">
+        <h2>Location Details</h2>
+        <div class="form-group">
+          <label for="pickupLocation">Pickup Location <span class="required">*</span></label>
+          <input type="text" id="pickupLocation" name="pickupLocation" required aria-required="true">
+          <div class="error-message" id="pickupLocation-error"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="dropoffLocation">Dropoff Location <span class="required">*</span></label>
+          <input type="text" id="dropoffLocation" name="dropoffLocation" required aria-required="true">
+          <div class="error-message" id="dropoffLocation-error"></div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group half">
+            <label for="pickupDate">Pickup Date <span class="required">*</span></label>
+            <input type="date" id="pickupDate" name="pickupDate" required aria-required="true">
+            <div class="error-message" id="pickupDate-error"></div>
+          </div>
+
+          <div class="form-group half">
+            <label for="pickupTime">Pickup Time <span class="required">*</span></label>
+            <input type="time" id="pickupTime" name="pickupTime" required aria-required="true">
+            <div class="error-message" id="pickupTime-error"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vehicle Selection Section -->
+      <section class="form-section" data-section="4">
+        <h2>Vehicle Selection</h2>
+        <div class="form-group">
+          <label for="vehicleType">Vehicle Type <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="vehicleType" name="vehicleType" required aria-required="true">
+              <option value="" disabled selected>Select vehicle type</option>
+              <option value="tesla">Tesla Model 3 (Sedan)</option>
+              <option value="kia">KIA Carnival (People Mover)</option>
+              <option value="toyota">Toyota Kluger (SUV)</option>
+              <option value="bmw">BMW I5 (4 Passenger Sedan)</option>
+              <option value="audi">Audi Q7 (TSFI; 7 Passenger)</option>
+            </select>
+          </div>
+          <div class="error-message" id="vehicleType-error"></div>
+        </div>
+      </section>
+
+      <!-- Passenger Information Section -->
+      <section class="form-section" data-section="5">
+        <h2>Passenger Information</h2>
+        <div class="form-row">
+          <div class="form-group half">
+            <label for="adultPassengers">Adult Passengers <span class="required">*</span></label>
+            <div class="custom-select">
+              <select id="adultPassengers" name="adultPassengers" required aria-required="true">
+                <option value="" disabled selected>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            </div>
+            <div class="error-message" id="adultPassengers-error"></div>
+          </div>
+
+          <div class="form-group half">
+            <label for="childPassengers">Child Passengers</label>
+            <div class="custom-select">
+              <select id="childPassengers" name="childPassengers">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Child Seat Options Section -->
+      <section class="form-section child-seat-section" data-section="6">
+        <h2>Child Seat Options</h2>
+        
+        <div class="form-row">
+          <div class="form-group third">
+            <label for="frontFacingSeats">Front-Facing Child Seats</label>
+            <div class="custom-select">
+              <select id="frontFacingSeats" name="frontFacingSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group third">
+            <label for="rearFacingSeats">Rear-Facing Child Seats</label>
+            <div class="custom-select">
+              <select id="rearFacingSeats" name="rearFacingSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group third">
+            <label for="boosterSeats">Booster Seats</label>
+            <div class="custom-select">
+              <select id="boosterSeats" name="boosterSeats">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Additional Requirements Section -->
+      <section class="form-section" data-section="7">
+        <h2>Additional Requirements</h2>
+        <div class="form-group">
+          <label for="specialInstructions">Special Instructions</label>
+          <textarea id="specialInstructions" name="specialInstructions" rows="4" placeholder="Please include any luggage details or special requirements"></textarea>
+        </div>
+      </section>
+
+      <!-- Payment Options Section -->
+      <section class="form-section" data-section="8">
+        <h2>Payment Options</h2>
+        <div class="form-group">
+          <label for="paymentOption">Payment Option <span class="required">*</span></label>
+          <div class="custom-select">
+            <select id="paymentOption" name="paymentOption" required aria-required="true">
+              <option value="" disabled selected>Select payment method</option>
+              <option value="creditCard">Credit Card (Visa/Mastercard)</option>
+              <option value="bankTransfer">Bank Transfer/Pay ID</option>
+            </select>
+          </div>
+          <div class="error-message" id="paymentOption-error"></div>
+        </div>
+      </section>
+
+      <!-- Terms and Conditions -->
+      <section class="form-section" data-section="9">
+        <div class="form-group checkbox-group">
+          <div class="custom-checkbox">
+            <input type="checkbox" id="termsAgree" name="termsAgree" required aria-required="true">
+            <label for="termsAgree">I have read and agree to the <a href="#" class="terms-link">Terms and Conditions</a> <span class="required">*</span></label>
+          </div>
+          <div class="error-message" id="termsAgree-error"></div>
+        </div>
+      </section>
+
+      <!-- Submit Button -->
+      <section class="form-section submit-section" data-section="10">
+        <button type="submit" id="submitButton" class="submit-button" disabled>
+          <span class="button-text">Get a Quote</span>
+          <span class="loader"></span>
+        </button>
+      </section>
+    </form>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+      <div class="success-content">
+        <h2>Thank You!</h2>
+        <p>Your booking request has been submitted successfully. We will contact you shortly with your quote.</p>
+        <button id="newBookingButton" class="submit-button">New Booking</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
