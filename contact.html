@@ -90,7 +90,7 @@
                         </li>
                         <li>
                             <span class="topbar__info__icon topbar__info__icon--location"><i class="icon-maps-and-flags"></i></span>
-                            <a href="https://www.google.com/maps/@23.506657,90.3443647,7z?entry=ttu">Friendship Avenue, Marcoola 4564, QLD Australia</a>
+                            <a href="https://www.google.com/maps/@23.506657,90.3443647,7z?entry=ttu">Wurtulla QLD, Australia</a>
                         </li>
                     </ul>
                     
@@ -186,7 +186,7 @@
                                     </div>
                                 </div>
                                 <h5 class="contact-top__item__title">Our Address</h5>
-                                <p class="contact-top__item__text">674 Nicklin Way, Wurtulla QLD, Australia</p>
+                                <p class="contact-top__item__text">Wurtulla QLD, Australia</p>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                                         <i class="icon-mail-2"></i>
                                     </div>
                                 </div>
-                                <h5 class="contact-top__item__title"><a href="mailto:book@keegansairportransfers.com">book@keegansairportransfers.com</a></h5>
+                                <h5 class="contact-top__item__title"><a href="mailto:book@keeganairportransfers.com" style="font-size: 14px;">book@keeganairportransfers.com</a></h5>
                                 <p class="contact-top__item__text">Email us anytime for bookings or inquiries</p>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                                         <i class="icon-map-pin"></i>
                                     </div>
                                 </div>
-                                <h5 class="contact-top__item__title">Call: <a href="tel:+61466433476">+61&nbsp;466&nbsp;433&nbsp;476</a></h5>
+                                <h5 class="contact-top__item__title">Call: <a href="tel:+61466433476">+61 466 433 476</a></h5>
                                 <p class="contact-top__item__text">Call us for immediate assistance</p>
                             </div>
                         </div>
@@ -246,22 +246,69 @@
                                     </div>
                                     <h3 class="sec-title__title wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">Get In Touch</h3>
                                 </div>
-                                <form class="contact-one__form__form contact-form-validated form-one wow fadeInUp" data-wow-duration="1500ms" action="https://pixydrops.com/cityride/inc/sendemail.php">
-                                    <div class="form-one__group">
-                                        <div class="form-one__control form-one__control--full">
-                                            <input type="email" name="email" id="email_address" placeholder="your email">
-                                        </div>
-                                        <div class="form-one__control form-one__control--full">
-                                            <input type="tel" name="tel" id="phone_no" placeholder="Phone">
-                                        </div>
-                                        <div class="form-one__control form-one__control--full">
-                                            <textarea name="message" id="message" placeholder="message"></textarea>
-                                        </div>
-                                        <div class="form-one__control form-one__control--full">
-                                            <button type="submit" class="cityride-btn cityride-btn--white">send message</button>
-                                        </div>
-                                    </div>
-                                </form>
+                                <form class="contact-one__form__form form-one wow fadeInUp" data-wow-duration="1500ms" 
+      action="https://api.web3forms.com/submit" method="POST">
+    
+    <!-- Web3Forms Required Fields -->
+    <input type="hidden" name="access_key" value="e7c9f580-1cad-4758-95e6-d7ec3e85104f">
+    <input type="hidden" name="subject" value="New Contact Form Submission">
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+    
+    <div class="form-one__group">
+        <div class="form-one__control form-one__control--full">
+            <input type="email" name="email" id="email_address" autocapitalize="none" autocorrect="off" placeholder="your email" required>
+        </div>
+        <div class="form-one__control form-one__control--full">
+            <input type="tel" name="phone" id="phone_no" placeholder="Phone" required>
+        </div>
+        <div class="form-one__control form-one__control--full">
+            <textarea name="message" id="message" placeholder="message" required></textarea>
+        </div>
+        <div class="form-one__control form-one__control--full">
+            <button type="submit" class="cityride-btn cityride-btn--white">send message</button>
+        </div>
+    </div>
+    
+    <!-- Simple Success Message -->
+    <div id="form-result" style="display: none; margin-top: 15px; color: green;">Submitted successfully</div>
+</form>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.contact-one__form__form');
+    const resultDiv = document.getElementById('form-result');
+    
+    form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalBtnText = submitButton.innerHTML;
+        submitButton.innerHTML = 'Sending...';
+        submitButton.disabled = true;
+        resultDiv.style.display = 'none';
+        
+        try {
+            const formData = new FormData(form);
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData
+            });
+            
+            const result = await response.json();
+            
+            if (result.success) {
+                resultDiv.style.display = 'block';
+                form.reset();
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        } finally {
+            submitButton.disabled = false;
+            submitButton.innerHTML = originalBtnText;
+        }
+    });
+});
+</script>
                             </div>
                             <div class="contact-one__shape-top">
                                 <div class="contact-one__shape-top__one"></div>
@@ -282,7 +329,9 @@
                 <div class="google-map google-map__contact">
                     <iframe 
                         title="Qhc Ref 57111 Location" 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.375334949572!2d153.11938497471633!3d-26.764303187017877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b939e979712c705%3A0x93badd9e7aa15c48!2sQhc%20Ref%2057111%2C%20674%20Nicklin%20Way%2C%20Wurtulla%20QLD%204575%2C%20Australia!5e0!3m2!1sen!2ske!4v1744937948215!5m2!1sen!2ske" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14250.588542028598!2d153.11638266919675!3d-
+                        26.75563431746666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b939e6160bedb2f%3A0x502a35af3deae80!2
+                        sWurtulla%20QLD%204575%2C%20Australia!5e0!3m2!1sen!2ske!4v1745328684655!5m2!1sen!2ske" 
                         width="600" 
                         height="450" 
                         style="border:0;" 
@@ -295,6 +344,8 @@
                 <!-- /.google-map -->
             </div><!-- /.container-fluid -->
         </section><!-- /.contact-map -->
+        
+
         
 
         <footer class="main-footer">
