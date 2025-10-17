@@ -554,10 +554,25 @@
         </div>
         <div class="sidebar-one__newsletter sidebar-one__item">
             <label class="sidebar-one__title" for="sidebar-email">Newsletter</label>
-            <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
-                <input type="email" name="EMAIL" id="sidebar-email" class="sidebar-one__newsletter__input" placeholder="Email Address">
-                <button type="submit" class="sidebar-one__newsletter__btn"><span class="icon-email" aria-hidden="true"></span></button>
-            </form>
+            <form action="https://api.web3forms.com/submit" method="POST" class="footer-widget__newsletter newsletter-form" id="newsletterForm">
+    <!-- Replace with your Access Key from Web3Forms -->
+    <input type="hidden" name="access_key" value="e7c9f580-1cad-4758-95e6-d7ec3e85104f">
+    <input type="hidden" name="subject" value="New Newsletter Subscription - Keegan Airport Transfers">
+    <input type="hidden" name="from_name" value="Keegan Airport Transfers Website">
+    <input type="hidden" name="redirect" value="https://keeganairportransfers.com/thank-you.html">
+    
+    <div class="form-group__form">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <button type="submit" class="cityride-btn cityride-btn--secondary">
+            <span class="icon-arrow-left1"></span>
+        </button>
+    </div>
+    <div class="form-group__check">
+        <input type="checkbox" name="privacy_consent" id="check" required value="Yes">
+        <label for="check">I agree to the <a href="privacy.html">Privacy Policy.</a></label>
+    </div>
+    <div class="newsletter-response"></div>
+</form>
             <div class="mc-form__response"></div>
         </div>
     </div>
